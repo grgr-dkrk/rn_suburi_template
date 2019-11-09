@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+  >
+    <View>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "padding": 5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderColor": "#ccc",
+                "borderWidth": 1,
+                "marginBottom": 10,
+                "padding": 5,
+              }
+            }
+          >
+            <View
+              style={Object {}}
+            >
+              <TextInput
+                allowFontScaling={true}
+                onChangeText={[Function]}
+                rejectResponderTermination={true}
+                underlineColorAndroid="transparent"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#eee",
+                  "color": "#fff",
+                  "padding": 10,
+                },
+                0,
+              ]
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text>
+                Press
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

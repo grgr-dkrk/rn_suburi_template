@@ -8,7 +8,6 @@ import {
   StatusBar,
 } from 'react-native';
 import MainScreen from 'screens/Main';
-import './storybook';
 
 console.disableYellowBox = true;
 
